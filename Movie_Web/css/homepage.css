@@ -1,0 +1,60 @@
+*{
+    font-family: 'Roboto', sans-serif;  
+    font-weight: bold;
+}
+
+body{
+    background: url(/IMG/mind_homepage_cover.jpeg); 
+    background-repeat: no-repeat;
+    color: aliceblue;
+    background-size: 100%;
+}
+
+.headerText {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 60%;
+}
+
+h2{
+    font-size: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    z-index: 2;
+    position: absolute;
+    font-family: 'KAGE-Freebies', sans-serif;
+    margin: 0;
+}
+
+.bottom{
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    font-family: 'KAGE-Freebies', sans-serif;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+.reviewText{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button{
+    color: white;
+    cursor: none;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+
+
+

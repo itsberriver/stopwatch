@@ -1,0 +1,60 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "nombre": "HER",
+      "director": "Spike Jonze (2013)",
+      "clasificacion": "love,drama,science fiction",
+      "info": "+info"
+    },
+    {
+      "id": 2,
+      "nombre": "I ORIGINS",
+      "director": "Mike cahil (2014)",
+      "clasificacion": "romantic film,drama",
+      "info": "+info"
+    },
+    {
+      "id": 3,
+      "nombre": "JOKER",
+      "director": "Todd Phillips (2019)",
+      "clasificacion": "drama, crime, suspense",
+      "info": "+info"
+    },
+    {
+      "id": 4,
+      "nombre": "500 DAYS OF SUMMER",
+      "director": "Marc Webb (2009)",
+      "clasificacion": "romantic comedy, drama",
+      "info": "+info"
+    },
+    {
+      "id": 5,
+      "nombre": "A GHOST STORY",
+      "director": "David Lowery (2017)",
+      "clasificacion": "romantic, drama, fantasy",
+      "info": "+info"
+    },
+    {
+      "id": 6,
+      "nombre": " THE TRUMAN SHOW",
+      "director": "Peter Weir (1998)",
+      "clasificacion": "dramatic comedy, science fiction",
+      "info": "+info"
+    },
+    {
+      "id": 7,
+      "nombre": "CAPATAIN FANTASTIC",
+      "director": "Matt Ross (2016)",
+      "clasificacion": "dramatic comedy, suspense",
+      "info": "+info"
+    },
+    {
+      "id": 8,
+      "nombre": "INTO THE SPIDERVERSE",
+      "director": "Peter Ramsey (2018)",
+      "clasificacion": "animation, superheros,action",
+      "info": "+info"
+    }
+  ]
+}
