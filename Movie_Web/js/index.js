@@ -18,9 +18,10 @@ fetchMoviesJSON().then(movies => {
         let info = movies.peliculas[i].info;
 
         moviesSection.innerHTML += `
+    
             <div class="card">
                 <div class="filmBox">
-                    <div id="filmText">
+                    <div id="filmBox">
                             <img class="image" src=${image}></img>
                             <p class="titleName">${title}</p>
                             <p class="directorName">${director}</p>

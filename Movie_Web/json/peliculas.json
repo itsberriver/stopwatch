@@ -13,6 +13,7 @@
       "nombre": "I ORIGINS",
       "director": "Mike cahil (2014)",
       "clasificacion": "romantic film,drama",
+      "image": "/img/iOrigins_catalogue.jpeg",
       "info": "+info"
     },
     {
@@ -20,6 +21,7 @@
       "nombre": "JOKER",
       "director": "Todd Phillips (2019)",
       "clasificacion": "drama, crime, suspense",
+      "image": "/img/joker_catalogue.jpg",
       "info": "+info"
     },
     {
@@ -27,6 +29,7 @@
       "nombre": "500 DAYS OF SUMMER",
       "director": "Marc Webb (2009)",
       "clasificacion": "romantic comedy, drama",
+      "image": "/img/summer_catalogue.jpg",
       "info": "+info"
     },
     {
@@ -34,6 +37,7 @@
       "nombre": "A GHOST STORY",
       "director": "David Lowery (2017)",
       "clasificacion": "romantic, drama, fantasy",
+      "image": "/img/ghost_catalogue.jpeg",
       "info": "+info"
     },
     {
@@ -41,6 +45,7 @@
       "nombre": " THE TRUMAN SHOW",
       "director": "Peter Weir (1998)",
       "clasificacion": "dramatic comedy, science fiction",
+      "image": "/img/truman_catalogue.jpeg",
       "info": "+info"
     },
     {
@@ -48,6 +53,7 @@
       "nombre": "CAPATAIN FANTASTIC",
       "director": "Matt Ross (2016)",
       "clasificacion": "dramatic comedy, suspense",
+      "image": "/img/captain_catalogue.jpeg",
       "info": "+info"
     },
     {
@@ -55,6 +61,7 @@
       "nombre": "INTO THE SPIDERVERSE",
       "director": "Peter Ramsey (2018)",
       "clasificacion": "animation, superheros,action",
+      "image": "/img/spiderverse_catalogue.jpg",
       "info": "+info"
     }
   ]
