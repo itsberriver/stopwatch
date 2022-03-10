@@ -1,40 +1,98 @@
 *{
     background: #141110;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin:0;
+    padding: 0;
+}
+
+#moviesSection{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    
+
+}
+
+.button{
+    color: white;
+    cursor: none;
+    text-decoration: none;
+    margin-top: 1rem;
 }
 
 .filmBox{
     width: 296px;
     height: 584px;
-    left: 72px;
-    top: 1029px;
-    
     border: 2px solid rgba(242, 237, 237, 0.2);
-    box-sizing: border-box;
     border-radius: 20px;
 }
     
+.titleName, .directorName,.category,.moreInfo {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titleName{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.category{
+    font-weight: 300;
+}
+
+.directorName{
+    font-weight: 600;
+
+}
+
+#filmText{
+    
+}
+
+.image{
+    width: 213px;
+    height: 314px;
+    left: 114px;
+    top: 316px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+
+
+
 .moreInfo{
     
     width: 296px;
     height: 41px;
-    left: 72px;
-    top: 1628px;
     margin-top: 1rem;
-    
     border: 2px solid rgba(242, 237, 237, 0.2);
     box-sizing: border-box;
-    
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.titleName, .directorName,.category,.moreInfo {
+.card{
+    padding: 2rem;
+}
+
+.headerText {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 60%;
     color: #FFFFFF;
+    margin-bottom: 1rem;
 }
-
-
-
-
 
 
 
