@@ -44,20 +44,6 @@ startButton.addEventListener('click', function () {
     resetButton.disabled = false;
 });
 
-function pause(seconds,minutes,hours){
-    clearTimeout(seconds);
-    clearTimeout(minutes);
-    clearTimeout(hours);
-}
-
-
-
-
-
-
-
-
-
 resetButton.addEventListener('click', function () {
     seconds = 0;
     minutes = 0;
@@ -68,6 +54,8 @@ resetButton.addEventListener('click', function () {
     resetButton.disabled = true;
     stopTimer();
 });
+
+
 
 
 
