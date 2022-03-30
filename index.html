@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador</title>
+    <title>Temporizador</title>
 </head>
 <body>
-    <h1>Mi contador</h1>
-    <h2 id="resultado">0</h2>
-    <button onclick="sumar()" > + </button>
-    <button onclick="restar()"> - </button>
-    <button onclick="reset()"> reset </button>
-    <script src="script.js">
-    </script>
+        <h1>Temporizador</h1>
+        <div id="timer">00:00:00 
+            <span class="hours"></span>
+            <span class="minutes"></span>
+            <span class="seconds"></span>
+        </div>
+        <div class="buttons">
+            <button type="button" id="start">START</button>
+            <button type="button" id="pause">PAUSE</button>
+            <button type="button" id="resume">RESUME</button>
+            <button type="button" id="reset">RESET</button>
+        </div>
+
+    <script src="/script.js"></script>
 </body>
 </html>
