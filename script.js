@@ -60,6 +60,8 @@ stopButton.addEventListener('click', function () {
     startButton.disabled = false;
     resetButton.disabled = false;
     stopButton.disabled = true; 
+    stopButton.disabled = false; 
+
 });
 
 
