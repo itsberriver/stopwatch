@@ -1,6 +1,7 @@
 *{
     background:url(/media/background.png);
     background-repeat:no-repeat;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #timer{
@@ -13,16 +14,44 @@
     background: #FFFDFB;
     box-shadow: 18px 20px 15px rgba(0, 0, 0, 0.15);
     border-radius: 45px;
+
+    font-size: 100px;
+    font-weight: 700;
+    color: #F39C99;
+    text-align: center;
+    line-height: 300px;
+
 }
 
-.buttons{
-    width: 143px;
-    height: 55px;
-    left: 508px;
-    top: 596px;
+#start, #stop, #reset{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #FFFDFB;
 
-    /* Primary_pink */
-
+    height: 3rem;
+    width: 10rem;
+    border: none;
     background: #F5CAC3;
     border-radius: 46px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 8px 40px;
+}
+
+#hours, #minutes, #seconds{
+
+    color: #F39C99;
+    background-image: none;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
 }

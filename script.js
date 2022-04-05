@@ -35,7 +35,7 @@ function startTimer() {
 }
 
 startButton.addEventListener('click', function  () {
-    startButton.innerHTML = 'RESUME';
+    startButton.innerHTML = 'resume';
     startButton.disabled = true;
     resetButton.disabled = false;
     interval = setInterval(startTimer, 1000);
@@ -49,7 +49,7 @@ resetButton.addEventListener('click', function () {
     printNumbers(seconds,'seconds');
     printNumbers(minutes,'minutes');
     printNumbers(hours,'hours');
-    startButton.innerHTML= 'START';
+    startButton.innerHTML= 'start';
     startButton.disabled = false;
     resetButton.disabled = true;
 
