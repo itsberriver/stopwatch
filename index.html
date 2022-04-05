@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
     <title>Temporizador</title>
 </head>
 <body>
+    <div>
         <h1>Chrono</h1>
-        <div id="timer">00:00:00 
-            <span class="hours"></span>
-            <span class="minutes"></span>
-            <span class="seconds"></span>
+    </div>
+        <div id="timer">
+            <span id="hours">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
         </div>
         <div class="buttons">
             <button type="button" id="start">START</button>
-            <button type="button" id="pause">PAUSE</button>
+            <button type="button" id="pause">STOP</button>
             <button type="button" id="resume">RESUME</button>
             <button type="button" id="reset">RESET</button>
         </div>

@@ -1,0 +1,28 @@
+*{
+    background:url(/media/background.png);
+    background-repeat:no-repeat;
+}
+
+#timer{
+    position: absolute;
+    width: 573px;
+    height: 404px;
+    left: 469px;
+    top: 289px;
+
+    background: #FFFDFB;
+    box-shadow: 18px 20px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 45px;
+}
+
+.buttons{
+    width: 143px;
+    height: 55px;
+    left: 508px;
+    top: 596px;
+
+    /* Primary_pink */
+
+    background: #F5CAC3;
+    border-radius: 46px;
+}

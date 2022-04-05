@@ -2,14 +2,10 @@ let seconds = 0;
 let minutes = 0;
 let hours = 0;
 
-
-
 const startButton = document.getElementById('start');
-const pauseButton = document.getElementById('pause');
-const resumeButton = document.getElementById('resume');
+const stopButton = document.getElementById('stop');
+/*const resumeButton = document.getElementById('resume');*/
 const resetButton = document.getElementById('reset');
-
-
 
 function startTimer() {
     if (seconds < 59) {
@@ -32,17 +28,22 @@ function startTimer() {
             hours = "0" + hours;
         }
     }
-    document.getElementById('timer').innerHTML = hours + ":" + minutes + ":" + seconds;
-    setTimeout(startTimer, 1000);
-}
+    document.getElementById('seconds').innerHTML = seconds;
+    document.getElementById('minutes').innerHTML = minutes;
+    document.getElementById('hours').innerHTML = hours;
 
+    setTimeout(startTimer, 1000);
+
+}
 
 startButton.addEventListener('click', function () {
     startTimer();
     startButton.disabled = true;
     pauseButton.disabled = false;
     resetButton.disabled = false;
+
 });
+
 
 resetButton.addEventListener('click', function () {
     seconds = 0;
@@ -50,35 +51,14 @@ resetButton.addEventListener('click', function () {
     hours = 0;
     document.getElementById('timer').innerHTML = "00:00:00";
     startButton.disabled = false;
-    pauseButton.disabled = true;
+    // pauseButton.disabled = true;
     resetButton.disabled = true;
     stopTimer();
 });
 
-
-
-
-
-
-
-
-
-
-
+// stop.Button.addEventListener('click', function () {
+//     stopTimer();
+//     startButton.disabled = false;
 
 // resumeButton.addEventListener ('click',);
 // resetButton.addEventListener ('click',);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
