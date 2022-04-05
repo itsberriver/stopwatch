@@ -5,7 +5,6 @@ let interval;
 
 const startButton = document.getElementById('start');
 const stopButton = document.getElementById('stop');
-/*const resumeButton = document.getElementById('resume');*/
 const resetButton = document.getElementById('reset');
 
 function printNumbers(time, idName) {
@@ -36,12 +35,11 @@ function startTimer() {
 }
 
 startButton.addEventListener('click', function  () {
+    startButton.innerHTML = 'RESUME';
     startButton.disabled = true;
-    // pauseButton.disabled = false;
     resetButton.disabled = false;
     interval = setInterval(startTimer, 1000);
 });
-
 
 resetButton.addEventListener('click', function () {
     clearInterval(interval);
@@ -51,15 +49,17 @@ resetButton.addEventListener('click', function () {
     printNumbers(seconds,'seconds');
     printNumbers(minutes,'minutes');
     printNumbers(hours,'hours');
+    startButton.innerHTML= 'START';
     startButton.disabled = false;
-    // pauseButton.disabled = true;
     resetButton.disabled = true;
-    // stopTimer();
+
 });
 
-// stopButton.addEventListener('click', function () {
-//     stopTimer();
-//     startButton.disabled = false;
+stopButton.addEventListener('click', function () {   
+    clearInterval(interval);
+    startButton.disabled = false;
+    resetButton.disabled = false;
+    stopButton.disabled = true; 
+});
 
-// resumeButton.addEventListener ('click',);
-// resetButton.addEventListener ('click',);
+
