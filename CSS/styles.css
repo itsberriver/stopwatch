@@ -2,7 +2,7 @@
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
-    position: relative;
+    /* position: relative; */
 }
 
 :root {
@@ -18,11 +18,11 @@ body{
 }
 
 #timer{
-    position: absolute;
     width: 573px;
     height: 404px;
     left: 469px;
     top: 289px;
+    
     margin: auto;
 
     background: #FFFDFB;
@@ -34,7 +34,7 @@ body{
     color: #F39C99;
     text-align: center;
     line-height: 300px;
-    background-image: none;
+    
 }
 
 #start, #stop, #reset{
@@ -51,10 +51,10 @@ body{
     font-size: 1.3rem;
     font-weight: 700;
     text-align: center;
-    background-image: none;
     cursor: pointer;
     outline: none;
     margin-top: 20px;
+    margin-top: 0;
 
     transition: ease-out 0.3s;
 }
@@ -69,7 +69,6 @@ body{
 }
 
 .buttons{
-    position: relative;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -89,8 +88,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    padding-left: 4rem;
+    
 }
 
 #instagram, #youtube, #mail{
@@ -98,3 +96,7 @@ body{
     padding: 1rem;
 }
 
+main{
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+}
