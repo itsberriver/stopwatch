@@ -6,9 +6,10 @@
 }
 
 :root {
-    --color-white: #F7EDE3;
+    --color-white: #fff;
     --color-black: #3F3327;
     --color-pink: #F5CAC3;
+    --color-dark-pink: #F39C99;
 }
 
 
@@ -49,7 +50,7 @@ body{
     border: none;
     background: var(--color-pink);
     border-radius: 46px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px 0px 15px var(--color-pink);
     font-size: 1.3rem;
     font-weight: 700;
     text-align: center;
@@ -58,8 +59,8 @@ body{
     outline: none;
     margin-top: 20px;
 
-
-    transition: all 0.2s ease-in-out;
+    transition: ease-out 0.3s;
+    /* transition: all 0.2s ease-in-out; */
 }
 
 #hours, #minutes, #seconds{
@@ -81,8 +82,9 @@ body{
 
 #start:hover,#stop:hover,#reset:hover{
     background-color: transparent;
+    box-shadow: inset 10rem 0px 15px var(--color-dark-pink);
     border-color: var(--color-pink);
-    color: var(--color-pink);
+    color: var(--color-white);
 }
 
 
