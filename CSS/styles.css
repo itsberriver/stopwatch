@@ -12,8 +12,6 @@
     --color-dark-pink: #F39C99;
 }
 
-
-
 body{
     background:url(/media/background.png); 
     background-repeat:no-repeat; 
@@ -37,7 +35,6 @@ body{
     text-align: center;
     line-height: 300px;
     background-image: none;
-
 }
 
 #start, #stop, #reset{
@@ -60,7 +57,6 @@ body{
     margin-top: 20px;
 
     transition: ease-out 0.3s;
-    /* transition: all 0.2s ease-in-out; */
 }
 
 #hours, #minutes, #seconds{
@@ -70,7 +66,6 @@ body{
     font-size: 100px;
     font-weight: 700;
     text-align: center;
-    
 }
 
 .buttons{
@@ -81,7 +76,7 @@ body{
 }
 
 #start:hover,#stop:hover,#reset:hover{
-    background-color: transparent;
+
     box-shadow: inset 10rem 0px 15px var(--color-dark-pink);
     border-color: var(--color-pink);
     color: var(--color-white);
@@ -95,4 +90,11 @@ body{
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    padding-left: 4rem;
 }
+
+#instagram, #youtube, #mail{
+    
+    padding: 1rem;
+}
+
