@@ -1,10 +1,21 @@
 *{
-    /* background:url(/media/background.png); 
-    background-repeat:no-repeat;  */
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
     position: relative;
+}
+
+:root {
+    --color-white: #F7EDE3;
+    --color-black: #3F3327;
+    --color-pink: #F5CAC3;
+}
+
+
+
+body{
+    background:url(/media/background.png); 
+    background-repeat:no-repeat; 
 }
 
 #timer{
@@ -13,6 +24,7 @@
     height: 404px;
     left: 469px;
     top: 289px;
+    margin: auto;
 
     background: #FFFDFB;
     box-shadow: 18px 20px 15px rgba(0, 0, 0, 0.15);
@@ -35,7 +47,7 @@
     height: 3rem;
     width: 10rem;
     border: none;
-    background: #F5CAC3;
+    background: var(--color-pink);
     border-radius: 46px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     font-size: 1.3rem;
@@ -45,6 +57,9 @@
     cursor: pointer;
     outline: none;
     margin-top: 20px;
+
+
+    transition: all 0.2s ease-in-out;
 }
 
 #hours, #minutes, #seconds{
@@ -54,6 +69,7 @@
     font-size: 100px;
     font-weight: 700;
     text-align: center;
+    
 }
 
 .buttons{
@@ -61,18 +77,20 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
 }
+
+#start:hover,#stop:hover,#reset:hover{
+    background-color: transparent;
+    border-color: var(--color-pink);
+    color: var(--color-pink);
+}
+
 
 .socialMedia{
 
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
-}
-
-body{
-    background:url(/media/background.png); 
-    background-repeat:no-repeat; 
 }
