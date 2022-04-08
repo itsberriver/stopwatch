@@ -10,6 +10,7 @@
     --color-black: #3F3327;
     --color-pink: #F5CAC3;
     --color-dark-pink: #F39C99;
+    --color-green: #C8E6C9;
 }
 
 body{
@@ -66,6 +67,10 @@ body{
     font-size: 100px;
     font-weight: 700;
     text-align: center;
+}
+
+#timerContainer{
+ /* max-width: 10rem; */
 }
 
 .buttons{
