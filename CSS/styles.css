@@ -16,6 +16,8 @@
 body{
     background:url(/media/background.png); 
     background-repeat:no-repeat; 
+    background-size:cover;
+    background-color: #f5cac3;
 }
 
 #timer{
