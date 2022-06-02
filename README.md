@@ -1,4 +1,4 @@
-### ⏱️ STOPWATCH ⏱️
+# ⏱️ STOPWATCH ⏱️
 
 ## About the project
 Stopwatch is part of one of the Factoria F5 Bootcamp projects. The main goals are to  be more familiar with javascript, HTML, and CSS.
@@ -13,6 +13,11 @@ If you want to the project you should first clone this repository, to do this, o
 
 `$ https://github.com/itsberriver/stopwatch.git`
 
+##Run the server
+If you cloned this repository, you can use LiveServer to see the app in the browser.
+If you didn't do it, don't worry! You can also see it without clone it! Just click the following link.:
+
+`$ [https://github.com/itsberriver/stopwatch.git](https://itsberriver.github.io/stopwatch/)`
 
 
 ## Tools that made possible this project
