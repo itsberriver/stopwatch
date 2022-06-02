@@ -27,6 +27,8 @@ If you want to the project you should first clone this repository, to do this, o
 
 ## The project in use
 
+![Captura de pantalla 2022-06-02 a las 14 28 25](https://user-images.githubusercontent.com/99019637/171629294-e2c98da5-7ea9-472f-847a-db03227cc39e.png)
+![Captura de pantalla 2022-06-02 a las 14 28 39](https://user-images.githubusercontent.com/99019637/171629311-4fb5371d-26d8-4313-864a-29968b0c873a.png)
 
 ## Developers
 - [Jess Mejia](https://github.com/itsberriver)
