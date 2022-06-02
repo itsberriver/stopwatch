@@ -9,7 +9,7 @@ Stopwatch is a web page you can use as digital display that can be started and s
 All its front-end is built with pure CSS.
 
 ## First step
-If you want to the project you should first clone this repository, to do this, open the terminal in the file you want the project to be saved, run the following command:
+If you want to see the project's code, you should first clone this repository, to do this, open the terminal in the file you want the project to be saved and run the following command:
 
 `$ https://github.com/itsberriver/stopwatch.git`
 
