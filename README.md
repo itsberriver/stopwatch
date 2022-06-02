@@ -13,7 +13,7 @@ If you want to the project you should first clone this repository, to do this, o
 
 `$ https://github.com/itsberriver/stopwatch.git`
 
-##Run the server
+## Run the server
 If you cloned this repository, you can use LiveServer to see the app in the browser.
 If you didn't do it, don't worry! You can also see it without clone it! Just click the following link.:
 
