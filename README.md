@@ -11,7 +11,7 @@ All its front-end is built with pure CSS.
 ## First step
 If you want to the project you should first clone this repository, to do this, open the terminal in the file you want the project to be saved, and run the following command:
 
-`$ https://github.com/itsberriver/stopwatch.git`
+https://github.com/itsberriver/stopwatch.git
 
 ##Run the server
 If you cloned this repository, you can use LiveServer to see the app in the browser.
