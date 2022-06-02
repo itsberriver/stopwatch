@@ -1,4 +1,4 @@
-### ⏱️STOPWATCH⏱️
+#### ⏱️ STOPWATCH ⏱️
 
 ## About the project
 Stopwatch is part of one of the Factoria F5 Bootcamp projects. The main goals are to  be more familiar with javascript, HTML, and CSS.
